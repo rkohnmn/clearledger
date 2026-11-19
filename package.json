@@ -1,0 +1,26 @@
+{
+  "name": "clearledger",
+  "version": "1.0.0",
+  "description": "Local-first browser application for auditing bank and credit card CSV statements, detecting recurring subscriptions, silent price hikes, and duplicate charges with zero logins and zero server uploads.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs --dir src --port 4173",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dir dist --port 4174",
+    "test": "node --test tests/core.test.mjs",
+    "verify": "npm test && npm run build"
+  },
+  "keywords": [
+    "personal-finance",
+    "csv-analyzer",
+    "subscription-tracker",
+    "local-first",
+    "privacy",
+    "pwa",
+    "offline-first"
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="ClearLedger Logo">
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#165B43" />
+  <rect x="16" y="18" width="32" height="5" rx="2.5" fill="#F7F6F2" />
+  <rect x="16" y="29" width="22" height="5" rx="2.5" fill="#A9DBC6" />
+  <rect x="16" y="40" width="14" height="5" rx="2.5" fill="#F7F6F2" />
+  <circle cx="44" cy="42.5" r="5.5" fill="#F7F6F2" />
+</svg>

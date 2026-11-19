@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClearLedger — Local-First Bank CSV Spend &amp; Subscription Auditor</title>
+  <meta name="description" content="Audit bank and credit card CSV statements privately in your browser. Detect recurring subscriptions, silent price hikes, duplicate charges, and category leaks with zero bank logins and zero server uploads." />
+  <meta name="theme-color" content="#165B43" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self';" />
+  <link rel="canonical" href="https://clearledger.app/" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ClearLedger — Private Bank CSV Spend &amp; Subscription Auditor" />
+  <meta property="og:description" content="Spot recurring subscriptions, silent price hikes, and duplicate charges directly in your browser. Zero bank logins. Zero uploads." />
+  <meta property="og:image" content="./assets/og-card.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ClearLedger — Local-First Bank CSV Auditor" />
+  <meta name="twitter:description" content="Analyze bank &amp; credit card CSVs privately in your browser with zero uploads and zero subscription fees." />
+
+  <link rel="stylesheet" href="./styles/app.min.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ClearLedger",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Local-first browser application for auditing bank and credit card CSV statements, detecting recurring subscriptions, silent price hikes, and duplicate charges without bank logins or server uploads."
+  }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <noscript>
+      <main style="max-width:640px;margin:48px auto;padding:24px;font-family:system-ui,sans-serif">
+        <h1>ClearLedger requires JavaScript</h1>
+        <p>ClearLedger processes bank CSV statements locally in your browser with zero server uploads. Enable JavaScript to run the application.</p>
+      </main>
+    </noscript>
+  </div>
+  <script type="module" src="./js/ui/app.js"></script>
+</body>
+</html>
